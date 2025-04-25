@@ -110,10 +110,8 @@ $mahasiswa = $result->fetch_assoc();
                                 </label>
                                 <select class="form-select" id="jurusan" name="jurusan">
                                     <option value="">-- Pilih Program Studi --</option>
-                                    <option value="Teknik Informatika" <?= $mahasiswa['jurusan'] == 'Teknik Informatika' ? 'selected' : '' ?>>Teknik Informatika</option>
+                                    <option value="Teknik Informatika" <?= $mahasiswa['jurusan'] == 'Teknik Informatika' ? 'selected' : '' ?>>Informatika</option>
                                     <option value="Sistem Informasi" <?= $mahasiswa['jurusan'] == 'Sistem Informasi' ? 'selected' : '' ?>>Sistem Informasi</option>
-                                    <option value="Teknik Komputer" <?= $mahasiswa['jurusan'] == 'Teknik Komputer' ? 'selected' : '' ?>>Teknik Komputer</option>
-                                    <option value="Manajemen Informatika" <?= $mahasiswa['jurusan'] == 'Manajemen Informatika' ? 'selected' : '' ?>>Manajemen Informatika</option>
                                 </select>
                             </div>
                             <div class="mb-4">
